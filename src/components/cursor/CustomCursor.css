@@ -1,0 +1,25 @@
+#custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FF7F81;
+    border-radius: 50%;
+    background-color: transparent;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out, width 0.2s ease-out, height 0.2s ease-out;
+}
+
+#custom-cursor.clicked {
+    transform: translate(-50%, -50%) scale(0.8);
+    border-color: #9A6A9A;
+}
+
+#custom-cursor.hovering {
+    width: 30px;
+    height: 30px;
+    /*border-color: #9A6A9A;*/
+}

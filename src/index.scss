@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-background;
+    width: 100dvw;
+    overflow-x: hidden;
+    font-family: "General Sans", sans-serif;
+}
+
+* {
+    cursor: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Education from "./components/Education.jsx";
@@ -10,6 +11,11 @@ import Cursor from "./components/cursor/Cursor.jsx";
 import Footer from "./components/Footer.jsx";
 
 const App = () => {
+  useEffect(() => {
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+      
+    }, []);
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
       <Cursor />

@@ -11,11 +11,12 @@ import python from "./tech/python.png";
 import r from "./tech/r.png";
 import sql from "./tech/sql.png";
 import tensorflow from "./tech/tensorflow.png";
+import powerbi from "./tech/powerbi.png";
 
 import uniMumbai from "./uni/University_of_Mumbai.svg";
 import uniStevens from "./uni/Stevens.png";
 
-import resume from "./resume.pdf";
+import resume from "./Final_Resume.pdf";
 
 export {
   resume,
@@ -35,15 +36,16 @@ export {
 
 // Export as a single object for easier importing
 export const techLogos = {
-  aws,
-  azure,
-  keras,
-  matplotlib,
-  numpy,
   python,
-  r,
   sql,
+  powerbi,
+  r,
+  numpy,
+  aws,
+  matplotlib,
   tensorflow,
+  keras,
+  // azure,
 };
 
 // Export as a single object for easier importing

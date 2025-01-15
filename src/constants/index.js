@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "Equipment Predictive Analysis",
     description:
-      "Developed a predictive model to forecast demand for surgical equipment based on historical usage data. Leveraged machine learning techniques for demand prediction and optimized inventory management in hospitals.",
+      "Developed a predictive model to forecast demand for surgical equipment based on historical usage data. Leveraged machine learning techniques for demand prediction and optimized inventory management in hospitals. Won the Choice Awards at Rutgers Health Hack 2024 for this project. ",
     link: "https://github.com/RU-Health-Hack-SurgiTech/Equipment-Predictive-Analysis",
     technologies: [
       "Python",

@@ -45,11 +45,11 @@ export const aboutData = {
       url: "https://github.com/sanjana-guptaa",
       icon: "AiFillGithub",
     },
-    {
-      platform: "Instagram",
-      url: "https://www.instagram.com",
-      icon: "AiFillInstagram",
-    },
+    // {
+    //   platform: "Instagram",
+    //   url: "https://www.instagram.com",
+    //   icon: "AiFillInstagram",
+    // },
   ],
 };
 
@@ -98,9 +98,21 @@ export const projectsData = [
 // Experience Section
 export const experienceData = [
   {
+    title: "Graduate Student Grader",
+    company: "Stevens Institute of Technology, Hoboken, NJ",
+    date: "Jan 2024 - Present",
+    responsibilities: [
+      "Taught advanced statistical concepts for course ENGR 241 Probability and Statistics for Data Science Applications during scheduled lectures.",
+      "Evaluated and graded assignments, projects, and exams and conducted doubt solving sessions.",
+      "Guided students in applying statistical techniques to real-world data science problems using Python, R, Excel and PowerBI."
+
+    ]
+  
+    },
+  {
     title: "Web Support and Content Migration Assistant",
     company: "Stevens Institute of Technology, Hoboken, NJ",
-    date: "Aug 2024 - Aug 2024",
+    date: "Aug 2024",
     responsibilities: [
       "Designed web layouts using Contentful, JavaScript, HTML, and CSS.",
       "Analyzed user behavior to improve site navigation and accessibility.",

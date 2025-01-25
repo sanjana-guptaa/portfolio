@@ -144,7 +144,7 @@ export const educationData = [
     degree: "MS in Data Science",
     institution: "Stevens Institute of Technology, Hoboken, NJ",
     duration: "Aug 2023 - May 2025",
-    GPA: "3.95/4",
+    GPA: "3.9/4",
     logo: uniLogos.uniStevens,
     courses: [
       "Time Series",
@@ -158,7 +158,7 @@ export const educationData = [
     degree: "Bachelor of Engineering in Information Technology",
     institution: "University of Mumbai, India",
     duration: "Aug 2019 - May 2023",
-    GPA: "8.27/10",
+    GPA: "8.3/10",
     logo: uniLogos.uniMumbai,
     courses: [
       "Artificial Intelligence",

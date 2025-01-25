@@ -22,7 +22,7 @@ const Achievements = () => {
             textShadow: "0px 4px 10px rgba(255, 255, 255, 0.2)", // Subtle shadow for emphasis
           }}
         >
-          My Achievements
+          Achievements
         </motion.h2>
 
         {/* Cards Section */}

@@ -111,7 +111,7 @@ const Projects = () => {
           transition={{ duration: 1 }}
           className="text-center text-4xl font-extrabold text-textPrimary dark:text-darkTextPrimary mb-8 uppercase tracking-wider"
         >
-          Creative Works & Contributions
+          Projects
         </motion.h2>
 
         {/* Categories */}

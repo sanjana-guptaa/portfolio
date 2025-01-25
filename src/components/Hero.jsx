@@ -146,7 +146,7 @@ const Hero = () => {
               textShadow: "0px 4px 10px rgba(255, 255, 255, 0.2)", // Subtle shadow for emphasis
             }}
           >
-            My Tech Stack
+            Tech Stack
           </motion.h2>
 
           {/* Tech Logos */}

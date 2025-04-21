@@ -15,7 +15,7 @@ export const aboutData = {
   description:
     "As a Data Scientist with expertise in data analytics, machine learning, and cloud technologies, I specialize in transforming data into actionable insights. Proficient in Python, SQL, R, and Power BI, I am dedicated to continuously evolving with industry trends. My goal is to leverage data-driven solutions to deliver meaningful value and impactful results across diverse domains.",
   highlights: [
-    "Master's in Data Science with a GPA of 3.95/4",
+    "Master's in Data Science with a GPA of 3.9/4.0",
     "Strong expertise in Python, SQL, R, and Power BI",
     "Experienced in Machine Learning & Cloud Technologies",
     "Developed web-based solutions and dashboards for enhanced user experiences",
@@ -112,7 +112,7 @@ export const experienceData = [
   {
     title: "Web Support and Content Migration Assistant",
     company: "Stevens Institute of Technology, Hoboken, NJ",
-    date: "Aug 2024",
+    date: "Jul 2024 - Aug 2024",
     responsibilities: [
       "Designed web layouts using Contentful, JavaScript, HTML, and CSS.",
       "Analyzed user behavior to improve site navigation and accessibility.",
@@ -144,7 +144,7 @@ export const educationData = [
     degree: "MS in Data Science",
     institution: "Stevens Institute of Technology, Hoboken, NJ",
     duration: "Aug 2023 - May 2025",
-    GPA: "3.9/4",
+    GPA: "3.9/4.0",
     logo: uniLogos.uniStevens,
     courses: [
       "Time Series",

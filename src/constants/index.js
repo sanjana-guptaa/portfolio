@@ -13,14 +13,13 @@ export const navLinks = [
 // About Section
 export const aboutData = {
   description:
-    "As a Data Scientist with expertise in data analytics, machine learning, and cloud technologies, I specialize in transforming data into actionable insights. Proficient in Python, SQL, R, and Power BI, I am dedicated to continuously evolving with industry trends. My goal is to leverage data-driven solutions to deliver meaningful value and impactful results across diverse domains.",
+    "As a Data Scientist, I bring expertise in data analytics, machine learning, artificial intelligence, and cloud technologies to transform complex datasets into actionable insights. Skilled in Python, SQL, R, and modern visualization tools, I design and deploy scalable data solutions that drive decision-making across industries. My experience spans developing web-based tools, interactive dashboards, and advanced ML models, always with a focus on delivering measurable impact and user-centric outcomes.",
   highlights: [
-    "Master's in Data Science with a GPA of 3.9/4.0",
-    "Strong expertise in Python, SQL, R, and Power BI",
+    "Master's in Data Science - GPA 3.9/4.0",
+    "Proficient in Python, SQL, R, and Power BI for end-to-end data solutions",
     "Experienced in Machine Learning & Cloud Technologies",
     "Developed web-based solutions and dashboards for enhanced user experiences",
-    "Proficient in data visualization using Tableau, Power BI, and Seaborn",
-    "Worked on advanced ML models, K-means clustering, and sentiment analysis",
+    "Worked on advanced ML models, K-means clustering, time series and sentiment analysis",
   ],
   buttons: [
     {
@@ -98,42 +97,42 @@ export const projectsData = [
 // Experience Section
 export const experienceData = [
   {
-    title: "Graduate Student Grader",
+    title: "Graduate Assistant – Civil, Environmental and Ocean Engineering Department",
     company: "Stevens Institute of Technology, Hoboken, NJ",
-    date: "Jan 2024 - Present",
+    date: "Jan 2025 - May 2025",
     responsibilities: [
-      "Taught advanced statistical concepts for course ENGR 241 Probability and Statistics for Data Science Applications during scheduled lectures.",
-      "Evaluated and graded assignments, projects, and exams and conducted doubt solving sessions.",
-      "Guided students in applying statistical techniques to real-world data science problems using Python, R, Excel and PowerBI."
+      "Directed a research initiative on 10+ years of Lake Hopatcong water quality data, applying time series analysis, trend detection, and multivariate statistical modeling to evaluate environmental health and sustainability.",
+      "Led 40+ office hours for 150+ students, mentoring best practices in statistics and data analysis using Python, R, SQL."
 
     ]
   
     },
   {
-    title: "Web Support and Content Migration Assistant",
+    title: "Data Migration Assistant",
     company: "Stevens Institute of Technology, Hoboken, NJ",
     date: "Jul 2024 - Aug 2024",
     responsibilities: [
       "Designed web layouts using Contentful, JavaScript, HTML, and CSS.",
-      "Analyzed user behavior to improve site navigation and accessibility.",
+      "Analyzed user behavior using Power BI to improve site navigation and accessibility.",
     ],
   },
   {
-    title: "Data Analyst Intern",
+    title: "Data Scientist",
     company: "Om Enterprises, Mumbai, India",
-    date: "Jun 2022 - May 2023",
+    date: "Jun 2022 - Jun 2023",
     responsibilities: [
-      "Streamlined data integration across warehouses with Python scripts, reducing errors by 90%.",
-      "Visualized insights with Power BI to optimize inventory levels and billing cycles.",
+      "Orchestrated the integration of multi-warehouse datasets for 50+ clients using Python, enhancing data consistency and reducing manual reconciliation errors by 95%, enhancing operational reliability across projects.",
+      "Automated ETL pipelines with Python and SQL to consolidate and transform warehouse and procurement data, generating interactive dashboards that accelerated reporting and decision-making by 60%.",
+      "Analyzed 100K+ SQL records to optimize resource allocation and project efficiency, using Excel & Power BI"
     ],
   },
   {
-    title: "Web Development Intern",
-    company: "D. Y. Patil University, Nerul, India",
+    title: "Summer Intern ",
+    company: "D. Y. Patil University, Mumbai, India",
     date: "Jun 2021 - Oct 2021",
     responsibilities: [
-      "Developed a web-based learning management system with Python, SQL, and JavaScript.",
-      "Integrated Power BI dashboards to monitor student performance trends.",
+      "Developed a full-stack learning management system in Python, SQL, and Flask; served 2000+ users with features like forums, meetups, and submission tracking; increased user engagement by 100%",
+      "Integrated admin dashboards using Power BI for metrics like course completion, progress, grades, login activity, etc.",
     ],
   },
 ];
@@ -144,7 +143,7 @@ export const educationData = [
     degree: "MS in Data Science",
     institution: "Stevens Institute of Technology, Hoboken, NJ",
     duration: "Aug 2023 - May 2025",
-    GPA: "3.9/4.0",
+    GPA: "3.9/4\.0",
     logo: uniLogos.uniStevens,
     courses: [
       "Time Series",
@@ -156,9 +155,9 @@ export const educationData = [
   },
   {
     degree: "Bachelor of Engineering in Information Technology",
-    institution: "University of Mumbai, India",
+    institution: "Ramrao Adik Institute of Technology",
     duration: "Aug 2019 - May 2023",
-    GPA: "8.3/10",
+    GPA: "3.8/4\.0",
     logo: uniLogos.uniMumbai,
     courses: [
       "Artificial Intelligence",
@@ -173,9 +172,19 @@ export const educationData = [
 // Achievements Section
 export const achievementsData = [
   {
-    title: "Peer Leader",
+    title: "Choice Award – Rutgers HealthHack 2024",
+    description:
+      "Developed an AI-driven hospital resource allocation system (SurgiTech) to optimize scheduling, equipment usage, and coordination between patients and doctors, improving operational efficiency and reducing delays in surgeries.",
+  },
+  {
+    title: "Graduate Peer Leader",
     description:
       "Conducted mentoring sessions to support graduate students at Stevens Institute of Technology.",
+  },
+  {
+    title: "Hackathon Team Lead",
+    description:
+      "NYU, Rutgers, Stevens - Multiple MVPs delivered in under 48 hours ",
   },
   {
     title: "Publicity Chief",
@@ -185,13 +194,13 @@ export const achievementsData = [
   {
     title: "Event Planning & Management",
     description:
-      "Led the planning team for Annual Technical Festival, Elixir 2019 at Ramrao Adik Institute.",
+      "Led the planning team for Annual Technical Festival, Elixir 2019 at Ramrao Adik Institute of Technology.",
   },
 ];
 
 // Contact Section
 export const contactData = {
-  email: "sgupta58@stevens.edu",
+  email: "sanjanagupta.ds@gmail.com",
   linkedin: "https://www.linkedin.com/in/sanjana-gupta-sg/",
   github: "https://github.com/sanjana-guptaa",
 };

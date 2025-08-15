@@ -127,7 +127,7 @@ const Contact = () => {
             className="w-full h-[28rem] lg:w-1/2 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all"
           >
             <MapContainer
-              center={[40.743, -74.032]}
+              center={[40.757925910475684, -73.98558551830381]}
               zoom={13}
               className="h-96"
               dragging={false}
@@ -141,18 +141,13 @@ const Contact = () => {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 className="dark:filter-dark filter-light"
               />
-              <Marker position={[40.743, -74.032]}>
-                <Popup>
-                  Hoboken, NJ
-                  <br />
-                  Come visit!
-                </Popup>
+              <Marker position={[40.757925910475684, -73.98558551830381]}>
               </Marker>
             </MapContainer>
             <div className="flex h-fit items-center justify-center mt-4 text-center text-4xl font-extrabold text-textPrimary dark:text-darkTextPrimary mb-4 uppercase tracking-wider">
               <FaMapMarkerAlt className="w-8 h-8 text-textPrimary dark:text-darkTextPrimary" />
-              <p className="text-center text-sm text-textPrimary dark:text-darkTextPrimary">
-                Hoboken, NJ - Come visit!
+              <p className="text-center text-sm text-textPrimary dark:text-darkTextPrimary ml-2">
+                New York City
               </p>
             </div>
           </motion.div>

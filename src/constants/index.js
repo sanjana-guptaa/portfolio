@@ -13,7 +13,7 @@ export const navLinks = [
 // About Section
 export const aboutData = {
   description:
-    "As a Data Scientist, I bring expertise in data analytics, machine learning, artificial intelligence, and cloud technologies to transform complex datasets into actionable insights. Skilled in Python, SQL, R, and modern visualization tools, I design and deploy scalable data solutions that drive decision-making across industries. My experience spans developing web-based tools, interactive dashboards, and advanced ML models, always with a focus on delivering measurable impact and user-centric outcomes.",
+    "As a Data Scientist with 2+ years of experience, I bring expertise in data analytics, machine learning, artificial intelligence, and cloud technologies to transform complex datasets into actionable insights. Skilled in Python, SQL, R, and modern visualization tools, I design and deploy scalable data solutions that drive decision-making across industries. My experience spans developing web-based tools, interactive dashboards, and advanced ML models, always with a focus on delivering measurable impact and user-centric outcomes.",
   highlights: [
     "Master's in Data Science - GPA 3.9/4.0",
     "Proficient in Python, SQL, R, and Power BI for end-to-end data solutions",
@@ -96,17 +96,26 @@ export const projectsData = [
 
 // Experience Section
 export const experienceData = [
+
   {
-    title: "Graduate Assistant – Civil, Environmental and Ocean Engineering Department",
+    title: "Data Analyst",
+    company: "Stealth FinTech Startup, New York, NY",
+    date: "Sep 2025 - Present",
+    responsibilities: [
+      "Built and optimized data pipelines using Python and PostgreSQL to analyze user behavior and engagement trends for a pre-launch fintech product.",
+      "Created Power BI dashboards to visualize KPIs and streamline performance monitoring and growth planning.",
+    ],
+  },
+  {
+    title: "Graduate Research Assistant – Civil, Environmental and Ocean Engineering Department",
     company: "Stevens Institute of Technology, Hoboken, NJ",
     date: "Jan 2025 - May 2025",
     responsibilities: [
-      "Directed a research initiative on 10+ years of Lake Hopatcong water quality data, applying time series analysis, trend detection, and multivariate statistical modeling to evaluate environmental health and sustainability.",
-      "Led 40+ office hours for 150+ students, mentoring best practices in statistics and data analysis using Python, R, SQL."
-
+      "Performed data analysis using time series analysis, trend detection, and multivariate statistical modeling on 10+ years of Lake Hopatcong water quality data.",
+      "Utilized Python, R, and SQL for data cleaning, modeling, and visualization to evaluate environmental health."
     ]
-  
-    },
+
+  },
   {
     title: "Data Migration Assistant",
     company: "Stevens Institute of Technology, Hoboken, NJ",
@@ -119,7 +128,7 @@ export const experienceData = [
   {
     title: "Data Scientist",
     company: "Om Enterprises, Mumbai, India",
-    date: "Jun 2022 - Jun 2023",
+    date: "Oct 2021 - Jul 2023",
     responsibilities: [
       "Orchestrated the integration of multi-warehouse datasets for 50+ clients using Python, enhancing data consistency and reducing manual reconciliation errors by 95%, enhancing operational reliability across projects.",
       "Automated ETL pipelines with Python and SQL to consolidate and transform warehouse and procurement data, generating interactive dashboards that accelerated reporting and decision-making by 60%.",
@@ -127,9 +136,9 @@ export const experienceData = [
     ],
   },
   {
-    title: "Summer Intern ",
+    title: "Web Developer",
     company: "D. Y. Patil University, Mumbai, India",
-    date: "Jun 2021 - Oct 2021",
+    date: "Jun 2021 - Sep 2021",
     responsibilities: [
       "Developed a full-stack learning management system in Python, SQL, and Flask; served 2000+ users with features like forums, meetups, and submission tracking; increased user engagement by 100%",
       "Integrated admin dashboards using Power BI for metrics like course completion, progress, grades, login activity, etc.",
@@ -146,25 +155,26 @@ export const educationData = [
     GPA: "3.9/4\.0",
     logo: uniLogos.uniStevens,
     courses: [
-      "Time Series",
-      "Statistical Methods",
-      "Optimization Models",
-      "Deep Learning",
-      "Machine Learning",
+      "Database Design",
+      "Probability & Statistics",
+      "Time Series Analysis",
+      "Marketing Analytics",
+      "GPU Computing in Finance",
+      "Machine Learning & AI",
+      "Bloomberg Market Concepts",
     ],
   },
   {
     degree: "Bachelor of Engineering in Information Technology",
     institution: "Ramrao Adik Institute of Technology",
-    duration: "Aug 2019 - May 2023",
+    // duration: "Aug 2019 - May 2023",
     GPA: "3.8/4\.0",
     logo: uniLogos.uniMumbai,
     courses: [
-      "Artificial Intelligence",
       "Python",
       "SQL",
       "Data Science & Business Intelligence",
-      "Data Mining",
+      "Cloud Computing",
     ],
   },
 ];

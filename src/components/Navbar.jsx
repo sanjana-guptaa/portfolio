@@ -47,17 +47,11 @@ const Navbar = () => {
               <Typical
                 steps={[
                   "Data Scientist",
-                  6000,
+                  3000,
                   "Data Analyst",
-                  6000,
+                  3000,
                   "Business Intelligence Analyst",
-                  6000,
-                  "Deep Learning Engineer",
-                  6000,
-                  "Big Data Analyst",
-                  6000,
-                  "Statistical Analyst",
-                  6000,
+                  3000,
                 ]}
                 loop={Infinity}
                 wrapper="span"
